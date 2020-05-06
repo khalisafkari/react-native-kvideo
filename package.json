@@ -11,6 +11,13 @@
     "prestart": "npm run build",
     "prepare": "npm run build"
   },
+  "keywords": [
+    "react-native-ivideo",
+    "react-native-video",
+    "react-native-video-play",
+    "video",
+    "react-video"
+  ],
   "license": "MIT",
   "dependencies": {
     "@react-native-community/slider": "^2.0.9",
