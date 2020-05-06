@@ -87,7 +87,7 @@ class Toolbar extends Component<prosp,state> {
 
         return (
             <View style={styles.container}>
-                <TouchableOpacity style={styles.content} onPress={this.witeHide}>
+                <TouchableOpacity activeOpacity={0.8} style={styles.content} onPress={this.witeHide}>
                     <Animated.View style={[styles.headerContainer,{ opacity }]}>
                         <View style={styles.header}>
                             <View style={styles.leftHeader}>
