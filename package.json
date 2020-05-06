@@ -1,0 +1,30 @@
+{
+  "name": "dev",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "repository": "https://github.com/khalisafkari/react-native-kvideo.git",
+  "author": "khalis afkari <khalis411@gmail.com>",
+  "scripts": {
+    "tsc": "tsc --init",
+    "build": "rm -rf ./dist && tsc",
+    "prestart": "npm run build",
+    "prepare": "npm run build"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@react-native-community/slider": "^2.0.9",
+    "react": "^16.13.1",
+    "react-native": "^0.62.2",
+    "react-native-system-setting": "^1.7.4",
+    "react-native-vector-icons": "^6.6.0",
+    "react-native-video": "^4.4.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/react": "^16.9.34",
+    "@types/react-native": "^0.62.7",
+    "@types/react-native-video": "^5.0.1",
+    "typescript": "^3.8.3"
+  }
+}
