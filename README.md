@@ -2,6 +2,9 @@
 ## react-native-kvideo
 react-native-kvideo is a react-native-video based video player component. React Native > 0.62.* is required.
 
+<a href="https://www.npmjs.com/package/react-native-kvideo"><img src="https://img.shields.io/npm/v/react-native-kvideo.svg?style=flat-square"></a>
+<a href="https://www.npmjs.com/package/react-native-kvideo"><img src="https://img.shields.io/npm/dm/react-native-kvideo.svg?style=flat-square">
+
 > Currently, the performance is not tested on IOS.
 
 __Features:__
